@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1518340969">
+  <File Type="OPT-DCP" Name="fourBitSubtractor_opt.dcp"/>
+  <File Type="ROUTE-STATUS-PB" Name="fourBitSubtractor_route_status.pb"/>
+  <File Type="PA-TCL" Name="fourBitSubtractor.tcl"/>
+  <File Type="RDI-RDI" Name="fourBitSubtractor.vdi"/>
+  <File Type="PWROPT-DRC" Name="fourBitSubtractor_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="fourBitSubtractor_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="fourBitSubtractor_timing_summary_init.rpt"/>
+  <File Type="OPT-DRC" Name="fourBitSubtractor_drc_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="fourBitSubtractor_pwropt.dcp"/>
+  <File Type="OPT-HWDEF" Name="fourBitSubtractor.hwdef"/>
+  <File Type="OPT-TIMING" Name="fourBitSubtractor_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="fourBitSubtractor_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="fourBitSubtractor_placed.dcp"/>
+  <File Type="PLACE-IO" Name="fourBitSubtractor_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="fourBitSubtractor_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="fourBitSubtractor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="fourBitSubtractor_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="fourBitSubtractor_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="fourBitSubtractor_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="fourBitSubtractor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="fourBitSubtractor_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="fourBitSubtractor_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="fourBitSubtractor_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="fourBitSubtractor_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="fourBitSubtractor_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="fourBitSubtractor_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-DCP" Name="fourBitSubtractor_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="fourBitSubtractor_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="fourBitSubtractor_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="fourBitSubtractor_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="fourBitSubtractor_methodology_drc_routed.rpt"/>
+  <File Type="BG-BIT" Name="fourBitSubtractor.bit"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="fourBitSubtractor_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="fourBitSubtractor_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="fourBitSubtractor_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="fourBitSubtractor_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="fourBitSubtractor_route_status.rpt"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="fourBitSubtractor_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="fourBitSubtractor_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="fourBitSubtractor_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="fourBitSubtractor_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="fourBitSubtractor_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fourBitSubtractor_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fourBitSubtractor_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="fourBitSubtractor_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="fourBitSubtractor_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="fourBitSubtractor_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIN" Name="fourBitSubtractor.bin"/>
+  <File Type="BITSTR-MSK" Name="fourBitSubtractor.msk"/>
+  <File Type="BITSTR-RBT" Name="fourBitSubtractor.rbt"/>
+  <File Type="BITSTR-NKY" Name="fourBitSubtractor.nky"/>
+  <File Type="BITSTR-BMM" Name="fourBitSubtractor_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="fourBitSubtractor.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="fourBitSubtractor.sysdef"/>
+  <File Type="BG-BGN" Name="fourBitSubtractor.bgn"/>
+  <File Type="BG-DRC" Name="fourBitSubtractor.drc"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/lab2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/4bitadder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/1complement.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/4bitsubtractor.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/2bitadder.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="fourBitSubtractor"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/4bitadderconstrain.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/4bitsubtractorcontrains.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sun Feb 11 17:20:56 2018
+# Process ID: 14780
+# Current directory: D:/NUS/ee2026/MyWork/lab2/lab2.runs/synth_1
+# Command line: vivado.exe -log fourBitSubtractor.vds -mode batch -messageDb vivado.pb -notrace -source fourBitSubtractor.tcl
+# Log file: D:/NUS/ee2026/MyWork/lab2/lab2.runs/synth_1/fourBitSubtractor.vds
+# Journal file: D:/NUS/ee2026/MyWork/lab2/lab2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source fourBitSubtractor.tcl -notrace
